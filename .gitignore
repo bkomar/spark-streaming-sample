@@ -1,0 +1,30 @@
+*.class
+*.log
+*.log.*
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+src/test/resources/*
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+#intellij
+.idea
+*.iml
+*.ipr
+*.iws
+
+#scheduler runtime files
+bin/bucket
+bin/pid
+bin/run-state*
