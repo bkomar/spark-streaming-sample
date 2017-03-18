@@ -11,5 +11,7 @@ libraryDependencies ++= Seq(
   "com.iheart" % "ficus_2.11" % "1.4.0",
 
   "org.apache.spark" %% "spark-core" % "2.1.0" % "provided",
-  "org.apache.spark" %% "spark-streaming" % "2.1.0" % "provided"
+  "org.apache.spark" %% "spark-streaming" % "2.1.0" % "provided",
+  "org.apache.spark" %% "spark-sql" % "2.1.0" % "provided",
+  "com.datastax.spark" %% "spark-cassandra-connector" % "2.0.0"
 )
